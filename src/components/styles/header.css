@@ -1,0 +1,27 @@
+
+.header-container {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 10px;
+    display: flex;
+    gap: 20px;
+    text-align: right;
+    color: #fff;
+    font-size: 1.5rem;
+    line-height: 1.5;
+}
+
+/*
+각 헤더 아이템에 대한 스타일
+*/
+.header-container a {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.header-container a:hover {
+    color: #abd5bd;
+}
