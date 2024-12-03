@@ -1,0 +1,25 @@
+/* 카드 리스트 */
+.project-list {
+    justify-content: center; /* 가로 방향 중앙 정렬 */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 한 줄에 3개씩 */
+    gap: 20px; /* 카드 간격 */
+    padding: 20px;
+  }
+
+  .project-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    flex: 1;
+    max-width: 300px; /* 카드 최대 크기 */
+  }
+
+  .project-card:hover {
+    transform: scale(1.05); /* 호버 효과 */
+  }
+  
+  .image-wrapper {
+    position: relative; /* 필수 */
+    width: 100%; /* 부모 카드의 너비를 채움 */
+    height: 150px; /* 원하는 높이 설정 */
+  }
