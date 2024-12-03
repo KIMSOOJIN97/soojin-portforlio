@@ -1,0 +1,39 @@
+
+.header{
+    display: flex;
+    justify-content: end;
+    background-color: #333; /* 배경색 설정 */
+}
+
+.header-container {
+    width: 100%; /* 너비를 전체 화면으로 설정 */
+    position: relative; /* 필요 시 위치를 조정 */
+    display: flex; /* 내부 요소 정렬을 위해 flex 사용 */
+    padding: 10px; /* 상하단 여백 추가 */
+    box-sizing: border-box; /* 패딩 포함 크기 계산 */
+    gap: 20px;
+    justify-content: right;
+}
+
+/*
+각 헤더 아이템에 대한 스타일
+*/
+.header-container a {
+    font-family: 'yg-jalnan';
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.header-container a:hover {
+    color: #abd5bd;
+    transform: scale(1.05); /* 호버 효과 */
+}
+
+@font-face {
+    font-family: 'yg-jalnan';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.2/JalnanOTF00.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
