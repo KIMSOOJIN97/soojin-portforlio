@@ -1,7 +1,7 @@
-import AboutContentComponent from "@/components/about/AboutContentComponent";
 import Image from "next/image";
-import "./about.css";
+import "@/styles/about/About.css";
 import CategoryComponent from "@/components/common/CategoryComponent";
+import AboutContentComponent from "@/components/about/AboutContentComponent";
 
 export default function AboutComponent() {
   return (

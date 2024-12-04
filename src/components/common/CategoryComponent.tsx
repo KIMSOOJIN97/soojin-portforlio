@@ -1,4 +1,4 @@
-import "./Category.css";
+import "@/styles/common/Category.css";
 
 interface Props {
   // 카테고리 텍스트

@@ -1,5 +1,5 @@
-import "./Header.css";
 import Image from "next/image";
+import "@/styles/common/Header.css";
 
 export default function HeaderComponent() {
   const headers = ["ABOUT", "PROJECTS", "SKILLS", "CONTACT"];

@@ -1,8 +1,8 @@
 // swiper
 import CategoryComponent from "@/components/common/CategoryComponent";
-import "./projects.css";
 // 이미지
 import Image from "next/image";
+import "@/styles/projects/Projects.css";
 
 export default function ProjectsComponent() {
   const projectList = [

@@ -1,4 +1,5 @@
-import "@/app/about/about.css";
+import "@/styles/about/About.css";
+
 export default function AboutContentComponent() {
   return (
     <div className="text-container">
