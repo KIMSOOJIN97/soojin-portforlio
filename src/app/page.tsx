@@ -30,7 +30,7 @@ export default function Home() {
         <section>
           <AboutComponent />
           <ProjectsComponent />
-          <SkillsComponent/>
+          <SkillsComponent />
         </section>
       )}
     </>
