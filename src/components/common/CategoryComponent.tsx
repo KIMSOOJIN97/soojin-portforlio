@@ -1,5 +1,3 @@
-import "@/styles/common/Category.css";
-
 interface Props {
   // 카테고리 텍스트
   text: string;
@@ -9,7 +7,7 @@ interface Props {
 
 export default function CategoryComponent({ text, color }: Props) {
   return (
-    <div className="categoryText" style={{ color: color }}>
+    <div className="p-8 font-SF_HambakSnow text-xl" style={{ color: color }}>
       {text}
     </div>
   );

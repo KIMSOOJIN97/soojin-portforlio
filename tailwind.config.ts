@@ -8,9 +8,17 @@ export default {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        establishRetrosansOTF: ["establishRetrosansOTF"],
+        SF_HambakSnow: ["SF_HambakSnow"],
+        MonoplexKRWideNerd_BoldItalic: ["MonoplexKRWideNerd-BoldItalic"],
+        SDSamliphopangche_Outline: ["SDSamliphopangche_Outline"],
+        GowunBatang_Regular: ["GowunBatang-Regular"],
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        customBlue: "#324A7A", // 원하는 색상 추가
       },
     },
   },
