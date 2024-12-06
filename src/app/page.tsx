@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 import AboutComponent from "./about/page";
 import ProjectsComponent from "./projects/page";
 import SkillsComponent from "./skills/page";
+import Image from "next/image";
 
 export default function Home() {
   const [showInitPage, setShowInitPage] = useState(true); // 초기 로딩 페이지 표시 여부
@@ -26,6 +27,17 @@ export default function Home() {
 
   return (
     <>
+      {showInitPage && (
+        <div className="fixed flex justify-center inset-0">
+          <Image
+            src="/images/portfolio_text.png"
+            alt="Portfolio Text"
+            width={500}
+            height={150}
+            priority={true}
+          />
+        </div>
+      )}
       {!showInitPage && (
         <section>
           <AboutComponent />
