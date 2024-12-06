@@ -9,7 +9,7 @@ export default function AboutComponent() {
       <CategoryComponent text={"About"} color={"#0072BB"} />
       <div className="about-container">
         <Image
-          src="/images/soojin.jpeg"
+          src="/images/soojin.jpg"
           alt="Soojin Image"
           width={250}
           height={50}

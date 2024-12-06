@@ -3,6 +3,7 @@
 import { useEffect, useState } from "react";
 import AboutComponent from "./about/page";
 import ProjectsComponent from "./projects/page";
+import SkillsComponent from "./skills/page";
 
 export default function Home() {
   const [showInitPage, setShowInitPage] = useState(true); // 초기 로딩 페이지 표시 여부
@@ -29,6 +30,7 @@ export default function Home() {
         <section>
           <AboutComponent />
           <ProjectsComponent />
+          <SkillsComponent />
         </section>
       )}
     </>
